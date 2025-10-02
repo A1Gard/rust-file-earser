@@ -1,0 +1,11 @@
+[package]
+name = "file-eraser"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { version = "0.13.1", features = ["tokio"] }
+rand = "0.8.5"
+rfd = "0.15.2"
+flume = "0.11"
+iced_futures = "0.13.2"
